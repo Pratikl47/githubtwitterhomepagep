@@ -1,0 +1,28 @@
+.layout {
+  display: grid;
+  grid-template-columns: 275px auto 350px;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-right: 20px;
+}
+
+.layout__right-sidebar {
+  position: fixed;
+  width: 350px;
+  border-left: 2.5px solid #e6ecf0;
+  padding: 10px;
+}
+.layout__left-sidebar {
+  border-bottom: 1px solid #e6ecf0;
+  border-right: 2.5px solid #e6ecf0;
+}
+.layout__main{
+  border-bottom: 1px solid #e6ecf0;
+}
+h1{
+  border-bottom: 1px solid #e6ecf0;
+  padding-left: 10px;
+}
+
+
+
